@@ -5,7 +5,7 @@ Bundle 'tpope/vim-git'
 Bundle 'Lokaltog/vim-powerline'
 
 set laststatus=2
-let g:Powerline_symbols = 'fancy'
+let g:Powerline_symbols = 'compatible'
 
 Bundle 'tomasr/molokai'
 Bundle 'kien/ctrlp.vim'
