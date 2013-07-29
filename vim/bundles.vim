@@ -36,3 +36,5 @@ Bundle 'plasticboy/vim-markdown'
 Bundle 'wavded/vim-stylus'
 
 Bundle 'mattn/zencoding-vim'
+
+Bundle 'Townk/vim-autoclose'

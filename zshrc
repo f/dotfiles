@@ -25,4 +25,7 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.profile
 
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/.bin
-export PATH=$(npm -g bin 2>/dev/null):$PATH
+
+if which npm > /dev/null; then
+  export PATH=$(npm -g bin 2>/dev/null):$PATH
+fi

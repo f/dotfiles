@@ -1,6 +1,6 @@
 [user]
 	name = Fatih Kadir Akın
-	email = fka@fatihak.in 
+	email = fka@fatihak.in
 [github]
 	user = f 
 [alias]
@@ -31,6 +31,7 @@
 	whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	editor = vim
 	quotepath = false
+	excludesfile = /Users/fka/.gitignore_global
 [credential]
 	helper = osxkeychain
 [mergetool]
@@ -41,3 +42,9 @@
 	tool = vimdiff
 [difftool]
 	prompt = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
