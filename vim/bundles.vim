@@ -7,12 +7,12 @@ Bundle 'Lokaltog/vim-powerline'
 set laststatus=2
 let g:Powerline_symbols = 'compatible'
 
-Bundle 'tomasr/molokai'
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'kien/ctrlp.vim'
 
 Bundle 'scrooloose/nerdtree'
 map <C-n> :execute 'NERDTreeToggle ' . getcwd()<CR>
-autocmd vimenter * if !argc() | NERDTree | endif
+" autocmd vimenter * if !argc() | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 let NERDTreeChDirMode=2
@@ -38,3 +38,5 @@ Bundle 'wavded/vim-stylus'
 Bundle 'mattn/zencoding-vim'
 
 Bundle 'Townk/vim-autoclose'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'jnwhiteh/vim-golang'

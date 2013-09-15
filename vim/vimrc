@@ -47,9 +47,9 @@ set background=dark
 
 set list listchars=tab:»-,trail:·,extends:»,precedes:«
 
-hi whitespace cterm=underline ctermfg=black
-autocmd ColorScheme * hi whitespace cterm=underline ctermfg=black
-match whitespace /^ \+/
+" hi whitespace cterm=underline ctermfg=black
+" autocmd ColorScheme * hi whitespace cterm=underline ctermfg=black
+" match whitespace /^ \+/
 
 " shift tab
 imap <S-Tab> <Esc><<i 
@@ -57,4 +57,4 @@ imap <S-Tab> <Esc><<i
 " w!! force save
 cmap w!! w !sudo tee % >/dev/null
 
-colorscheme molokai
+colorscheme solarized

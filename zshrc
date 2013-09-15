@@ -24,8 +24,17 @@ source $ZSH/oh-my-zsh.sh
 
 source $HOME/.profile
 
-export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/.bin
+export PATH=$PATH:/usr/local/bin:$HOME/.bin:/usr/bin:/bin:/usr/sbin:/sbin
+export GOPATH=$HOME/.go
+# export GOBIN=$GOPATH/bin
+# export PATH=$PATH:$GOBIN
 
 if which npm > /dev/null; then
   export PATH=$(npm -g bin 2>/dev/null):$PATH
 fi
+
+if [ -f $HOME/.functions ]; then
+  source $HOME/.functions
+fi
+
+export PS1="🌀  $PS1"
