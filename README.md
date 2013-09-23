@@ -1,4 +1,7 @@
 
+[![Clone in Koding](http://kbutton.org/clone.png?v1379978671849)](http://kbutton.org/f/dotfiles)
+
+
 [![Clone in Koding](http://kbutton.org/clone.png?v1379978621761)](http://kbutton.org/f/dotfiles)
 
 
