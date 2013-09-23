@@ -1,9 +1,3 @@
-
-[![Clone in Koding](http://kbutton.org/clone.png?v1379976891180)](http://kbutton.org/f/dotfiles)
-
-
-[![Clone in Koding](http://kbutton.org/clone.png?v1379951779893)](http://kbutton.org/f/dotfiles)
-
 dotfiles
 ========
 
